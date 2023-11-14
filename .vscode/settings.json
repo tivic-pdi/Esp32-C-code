@@ -20,6 +20,11 @@
         "task.h": "c",
         "freertos.h": "c",
         "i2c_master_config.h": "c",
-        "i2c.h": "c"
+        "i2c.h": "c",
+        "sdkconfig.h": "c",
+        "i2c_types.h": "c",
+        "soc_caps.h": "c",
+        "i2c_slave_comm.h": "c",
+        "in_ports_comm.h": "c"
     }
 }

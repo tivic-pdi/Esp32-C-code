@@ -1,0 +1,14 @@
+# Hashes of file build rules.
+a090f565d0001107b06cd95eefd965ec .bin_timestamp
+4633cf334814bc588370a0b24200f2bd bootloader-prefix/src/bootloader-stamp/bootloader-configure
+d11b20624821020962f8a87d61662d2b bootloader-prefix/src/bootloader-stamp/bootloader-download
+f821dbd5db0440822729cfb5793eda00 bootloader-prefix/src/bootloader-stamp/bootloader-install
+cfe3b0ef04d1d417347796442c1af235 bootloader-prefix/src/bootloader-stamp/bootloader-mkdir
+bde5a86a0d98887e09b48f3224de3539 bootloader-prefix/src/bootloader-stamp/bootloader-patch
+e70516322afeba9460047a7803f82d1f bootloader-prefix/src/bootloader-stamp/bootloader-update
+a16a253ebb92ba6c1070e764f6e2ce41 esp-idf/esp_system/ld/memory.ld
+4f71e8302426dd2a6945b1d78f125a16 esp-idf/esp_system/ld/sections.ld
+5df1ae8f0da727cf03865e8371d47e9e esp-idf/mbedtls/x509_crt_bundle
+ce5d32fe30fab80a3ec68ad498d7020e partition_table/partition-table.bin
+ec73e958804ef98957cde4b3d39a64ac project_elf_src_esp32.c
+2de58e06d0f1f2d2fc4d48d17b486192 x509_crt_bundle.S

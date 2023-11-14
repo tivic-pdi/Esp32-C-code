@@ -1,9 +1,0 @@
-[0/1] Re-running CMake...
--- Component directory /home/tassio/Documents/Esp32-C-code/components/Esp32-C-code does not contain a CMakeLists.txt file. No component will be added
--- git describe returned 'fatal: bad revision 'HEAD''
--- Could not use 'git describe' to determine PROJECT_VER.
--- Building ESP-IDF components for target esp32
--- Configuring incomplete, errors occurred!
-See also "/home/tassio/Documents/Esp32-C-code/build/CMakeFiles/CMakeOutput.log".
-FAILED: build.ninja 
-/home/tassio/.espressif/tools/cmake/3.24.0/bin/cmake --regenerate-during-build -S/home/tassio/Documents/Esp32-C-code -B/home/tassio/Documents/Esp32-C-code/build

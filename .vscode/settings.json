@@ -8,10 +8,9 @@
     },
     "idf.espIdfPath": "/home/tassio/esp/esp-idf",
     "idf.openOcdConfigs": [
-        "interface/ftdi/esp32_devkitj_v1.cfg",
-        "target/esp32.cfg"
+        "board/esp32-bridge.cfg"
     ],
-    "idf.port": "/dev/ttyACM0",
+    "idf.port": "/dev/ttyUSB0",
     "idf.pythonBinPath": "/home/tassio/.espressif/python_env/idf5.1_py3.10_env/bin/python",
     "idf.toolsPath": "/home/tassio/.espressif",
     "C_Cpp.errorSquiggles": "disabled",

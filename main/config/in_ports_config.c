@@ -2,9 +2,15 @@
 #include "../headers/in_ports_config.h"
 
 
+const int set_port_array[] = {VM_IN, AM_IN, VD_IN, VM_IN2, AM_IN2, VD_IN2};
 
 
 void in_ports_init(){
+
+    for (int i = 0; i < sizeof(set_port_array)/sizeof(set_port_array[0]); i++) {
+        esp_rom_gpio_pad_select_gpio(set_port_array[i]);
+    }
+   
 
     gpio_config_t input_conf;
     input_conf.intr_type = GPIO_INTR_DISABLE;

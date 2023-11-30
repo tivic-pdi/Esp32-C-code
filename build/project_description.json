@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "Esp32-C-code",
-    "project_version":    "5622111-dirty",
+    "project_version":    "b96bea1-dirty",
     "project_path":       "/home/tassio/Documents/Esp32-C-code",
     "idf_path":           "/home/tassio/esp/esp-idf",
     "build_dir":          "/home/tassio/Documents/Esp32-C-code/build",

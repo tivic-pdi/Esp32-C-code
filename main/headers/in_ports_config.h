@@ -7,9 +7,9 @@
 
 //Portas utilizadas para demonstração. Sistema será migrado para receber por I2C
 
-#define VM_IN 15
+#define VM_IN 18
 #define AM_IN 4
-#define VD_IN 17
+#define VD_IN 19
 
 #define VM_IN2 33
 #define AM_IN2 34

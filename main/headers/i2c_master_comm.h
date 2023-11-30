@@ -28,7 +28,7 @@ uint8_t read_imputs();
 
 void all_on();
 
-void all_of();
+void all_off();
 
 
 uint8_t invert_byte(uint8_t b);

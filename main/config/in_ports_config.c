@@ -2,6 +2,9 @@
 #include "../headers/in_ports_config.h"
 
 
+//Utilizado para configurar as entradas digitais do ESP32. Sem necessidade de ser mantido.
+
+
 const int set_port_array[] = {VM_IN, AM_IN, VD_IN, VM_IN2, AM_IN2, VD_IN2};
 
 

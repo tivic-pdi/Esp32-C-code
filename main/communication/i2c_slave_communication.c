@@ -29,6 +29,10 @@ int get_bit(uint8_t b, int i){
 
 
 
+//TODO:
+//Implementar a função de envio de estado para o raspberry.
+//Esses estados ainda não estão definidos (regra de negócio).
+
 
 uint8_t send_state();
 
@@ -57,6 +61,11 @@ uint8_t send_state();
 //     return *data;
    
 // }
+
+
+
+//TODO:
+//Verificar a relação do buffer com o estouro de memória do esp (teste de stress).
 
 void i2c_slave_receive(uint8_t data[BUF_SIZE]){
     // uint8_t data[BUF_SIZE];
